@@ -30,7 +30,7 @@ echo Yii::$app->menu->home->title; // equal: Yii::$app->menu->getHome()->getTitl
 
 #### findAll()
 
-To list navigation data of the menu use the {{\luya\cms\Menu::find}} method (which is somehwat equilvalent implementation of Yii2 ActiveRecord pattern) you can use the {{\luya\cms\Menu::findAll}} method. This will return and array iterator you can foreach based on an where expression. Below a very common example of how to build a menu with one level:
+To list navigation data of the menu use the {{\luya\cms\Menu::find}} method (which is somewhat equivalent implementation of Yii2 ActiveRecord pattern) you can use the {{\luya\cms\Menu::findAll}} method. This will return and array iterator you can foreach based on an where expression. Below a very common example of how to build a menu with one level:
 
 ```php
 <ul>
