@@ -44,7 +44,7 @@ class TestProperty extends \luya\admin\base\Property
 
 After running the import command you will see the property in the CMS admin. In order to understand the methods used in details refer to the API Guide {{\luya\admin\base\Property}}.
 
-We are also have a set of predefined propertys you can extend from, this i cause some blocks have to override the `getValue()` method in order to change the value output, as this is common scenario we have built classes you can abstract from.
+We are also have a set of predefined properties you can extend from, this cause some blocks have to override the `getValue()` method in order to change the value output, as this is common scenario we have built classes you can abstract from.
 
 #### Image Property
 
@@ -74,7 +74,7 @@ Predefined properties
 + {{luya\admin\base\ImageProperty}}
 + {{luya\admin\base\CheckboxProperty}}
 
-## Get the Propety
+## Get the Property
 
 You can access the properties in
 
