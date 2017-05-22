@@ -1,4 +1,4 @@
-# Frontend Modul
+# Frontend Module
 
 When you have specific logic you want to apply to your website, this can be a form where user can input data, or you may load data from a database and render a custom view then you can create a frontend module. You can then integrate the module into your cms or open the url of the module directly, depends on what you wish to do.
 
