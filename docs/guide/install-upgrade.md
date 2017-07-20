@@ -26,7 +26,7 @@ Now you got a new composer lock file, which can be used for other team members t
 
 ### Console
 
-After updating composer, excecute the following command to upgrade the Database.
+After updating composer, execute the following command to upgrade the Database.
 
 ```sh
 ./vendor/bin/luya migrate
@@ -38,7 +38,7 @@ Now refresh all existing importer components with the import commmand:
 ./vendor/bin/luya import
 ```
 
-Sometimes image filters changes and you should reprocess all flemanager thumbnails:
+Sometimes image filters changes and you should reprocess all filemanager thumbnails:
 
 ```sh
 ./vendor/bin/luya admin/storage/process-thumbnails
