@@ -1,6 +1,6 @@
 # Composition Concept
 
-When dealing with multiple language websites the {{\luya\web\Composition}} component is a powerfull tool to help building **multi lingual url rules**, generate websites with **localisation prefixes** (like www.example.com/de/ch) or define domains which should automatic trigger a website language trough **host info mapping**.
+When dealing with multiple language websites the {{\luya\web\Composition}} component is a powerfull tool to help building **multi lingual url rules**, generate websites with **localisation prefixes** (like www.example.com/de/ch) or define domains which should automatic trigger a website language through **host info mapping**.
 
 To configure and setup the composition component you have to open the application configuration file and update the composition component in the components section. The below examples shows a very advanced use of the composition in order to show all possibilities.
 
@@ -35,7 +35,7 @@ $langShortCode = Yii::$app->composition['langShortCode'];
 $countryShortCode = Yii::$app->composition['countryShortCode'];
 ```
 
-> Note: In the CMS context, the **langShortCode** is **required** by default. Other patterns can be added, but the langShortCode is bound to the CMS language table from the database. When creating a LUYA website without the CMS module you can complet change those patterns.
+> Note: In the CMS context, the **langShortCode** is **required** by default. Other patterns can be added, but the langShortCode is bound to the CMS language table from the database. When creating a LUYA website without the CMS module you can complete change those patterns.
 
 ## Disable the Component
 
