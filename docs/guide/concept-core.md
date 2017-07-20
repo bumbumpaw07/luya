@@ -8,7 +8,7 @@ In other words it means you can also use LUYA to build an application without ad
 
 ## LUYA CORE as MVC
 
-In order to run a LUYA core application without modules just create a applicatin with the following structure:
+In order to run a LUYA core application without modules just create a application with the following structure:
 
 ```
 .
