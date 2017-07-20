@@ -4,7 +4,7 @@ Structures
 Example Project Folder hierarchy
 --------------------------------
 
-This is what a standard luya kickstarter appliation hierarchy should look like and wher you have to put your content
+This is what a standard luya kickstarter application hierarchy should look like and where you have to put your content
 
 ```
 .
@@ -57,7 +57,7 @@ return [
     'defaultRoute' => 'cms',
     
     /*
-     * Define the basePath of the project (Yii Configration Setup)
+     * Define the basePath of the project (Yii Configuration Setup)
      */
     'basePath' => dirname(__DIR__),
     
@@ -65,7 +65,7 @@ return [
         
         /*
          * If you have other administration module (like cmsadmin) then you going to need this module. The Admin module provides
-         * a lot of functionalitiy like storage system etc. But the basic concept of LUYA is also that you can use LUYA without the
+         * a lot of functionality like storage system etc. But the basic concept of LUYA is also that you can use LUYA without the
          * admin module.
          * 
          * @secureLogin: (boolean) This will activated a two-way authentification method where u get a token sent by mail, for this feature
@@ -109,7 +109,7 @@ return [
          * ATTENTION:
          * To help us improve our Software you can enable (true) this property to send all Exceptions directly to the luya developer team. The follwing informations will be transfered:
          * - $_GET, $_POST
-         * - Exception Object (inlcuding stack trace, line, linenr, message, file)
+         * - Exception Object (including stack trace, line, linenr, message, file)
          *
          * You can also create your own errorapi (zehir/luya-modul-errorapi) module to get notification
          * about the errors from your projects.
@@ -122,7 +122,7 @@ return [
          * The composition component handles your languages and they way your urls will look like. The composition componentn will
          * automatically add the language prefix you have defined in `default` to your url (the language part in the url "example.com/EN/homepage").
          * 
-         * hidden: (boolean) If this website is not multilingual you can hidde the composition, other whise you have to enable this.
+         * hidden: (boolean) If this website is not multilingual you can hide the composition, other whise you have to enable this.
          */
         'composition' => [
             'hidden' => true, // you will not have languages in your url (most case for pages which are not multi lingual)
