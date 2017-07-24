@@ -2,7 +2,7 @@
 
 The {{\luya\cms\Menu}} component allows you to build the websites navigations. The menu component is part of the **cms** module.
 
-You can access the {{\luya\cms\Menu}} component trough `Yii::$app->menu`. This component help you to create menus, find childs, get items of containers, get propertie data and much more. The menu component is automatically registered when adding the CMS Module to your config.
+You can access the {{\luya\cms\Menu}} component through `Yii::$app->menu`. This component help you to create menus, find childs, get items of containers, get propertie data and much more. The menu component is automatically registered when adding the CMS Module to your config.
 
 When you request a menu item, you will always get a {{\luya\cms\menu\Item}} object which provides a lot of getter methods.
 
