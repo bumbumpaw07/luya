@@ -1,6 +1,6 @@
 # Block config and type
 
-Here we are going to more deeply understand what the `config()` method of a block contains and what kind of types can be used. To understand of the config first we have to explain the available types of confiugrations and which are used to be configured by the user or the developer.
+Here we are going to more deeply understand what the `config()` method of a block contains and what kind of types can be used. To understand of the config first we have to explain the available types of configurations and which are used to be configured by the user or the developer.
 
 ### Types
 
@@ -14,13 +14,13 @@ return [
 ];
 ```
 
-> You only have to return the types you like to use in your block, if do not have placeholders your don't have to return it at all.
+> You only have to return the types you like to use in your block, if you do not have placeholders you don't have to return it at all.
 
 | Name | Function
 | ---- | --------
 | vars | Contains all variables which are shown when editing the block in the administration.
 | cfgs | Those options are the config gear icon in the administration overview and can contain optional informations which could be more deeply or more for the developer context.
-| placeholders | Allows you to generate placeholders which creates an arra where other blocks can be dropped into, this is very common for layout blocks.
+| placeholders | Allows you to generate placeholders which creates an array where other blocks can be dropped into, this is very common for layout blocks.
 
 ### Field
 
@@ -48,7 +48,7 @@ return [
 ## Input-Types
 
 
-There are several types you can use to generate your block controlls. Each class which support those types implements the {{\luya\admin\base\TypesInterface}} where you can use the type names as constant.
+There are several types you can use to generate your block controls. Each class which support those types implements the {{\luya\admin\base\TypesInterface}} where you can use the type names as constant.
 
 |Type Name            |Constante|Description
 |---------------------|---------|-----------
@@ -102,7 +102,7 @@ public function extraVars()
 }
 ```
 `
-In the view you can access the values as follwed:
+In the view you can access the values as followed:
 
 ```php
 <?php if ($this->extraValue('download') && $this->extraValue('image')): ?>
